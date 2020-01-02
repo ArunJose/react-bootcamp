@@ -8,7 +8,6 @@ class Die extends Component {
   }
   handleClick() {
     this.props.handleClick(this.props.idx);
-    console.log("handleClick Die");
   }
   render() {
     return (
